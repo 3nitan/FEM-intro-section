@@ -42,10 +42,15 @@
   background-color: var(--almost-white);
 }
 
-.hero .left .footer-icons img {
-  margin-inline: 20px;
+.hero .left.footer-icons {
+  display: flex;
+  align-items: center;
 }
 
+.hero .left .footer-icons img {
+  /* margin: 20px 0px; */
+  margin-right: 30px;
+}
 .hero .right {
   width: 35%;
 }
