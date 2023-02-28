@@ -1,5 +1,7 @@
 nav {
-  padding: 40px 30px;
+  /* padding: 40px 30px; */
+  width: 1200px;
+  margin: 30px auto;
 }
 
 nav ul {

@@ -1,12 +1,18 @@
 .hero {
-  width: 80%;
+  width: 1200px;
   margin: 20px auto;
   display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  height: auto;
 }
 
 .hero .left {
-  width: 65%;
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  
 }
 
 .hero .left h1 {
@@ -27,24 +33,27 @@
 .hero .left button {
   color: var(--almost-white);
   background-color: var(--almost-black);
-  padding: 10px 20px;
+  height: 50px;
   font-size: 15px;
   cursor: pointer;
   border-radius: 10px;
   border: none;
   transition: 0.1s;
   margin-bottom: 25px;
+  width: 30%;
 }
 
 .hero .left button:hover {
   border: 1px solid var(--almost-black);
   color: var(--almost-black);
   background-color: var(--almost-white);
+
 }
 
-.hero .left.footer-icons {
+.hero .left .footer-icons {
   display: flex;
   align-items: center;
+  margin-top: 110px;
 }
 
 .hero .left .footer-icons img {
@@ -52,7 +61,8 @@
   margin-right: 30px;
 }
 .hero .right {
-  width: 35%;
+  width: 500px;
+
 }
 
 .hero .right img {

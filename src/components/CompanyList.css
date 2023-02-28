@@ -8,8 +8,9 @@
   /* padding-left: 20px; */
   /* display: none; */
   position: absolute;
-  top: 70px;
-  left: 290px;
+  /* top: 70px;
+  left: 290px; */
+  transform: translate(0px , 10px);
 }
 
 .company p {
