@@ -76,42 +76,57 @@
   .hero {
     flex-direction: column-reverse;
     width: 400px;
+    justify-content: center;
     align-items: center;
     margin: 0px;
     height: auto;
   }
 
+  .hero .right {
+    display: block;
+    width: 450px;
+  }
+
+  .hero .right img {
+    width: 100%;
+  }
+
+  .hero .left {
+    width: 400px;
+  }
+
   .hero .left h1 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    margin: 4rem auto;
-    margin-left: 4.5rem;
+    margin: 4rem 0px;
+    /* margin-left: 4.5rem; */
     /* margin: 4rem 0 2rem 0; */
   }
 
   .hero .left p {
     font-size: 20px;
+    padding: 20px;
     text-align: center;
     line-height: 1.8;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
   }
 
   .hero .left button {
-    margin: auto;
+    /* margin: auto; */
+    align-self: center;
     border-radius: 15px;
   }
 
   .footer-icons {
     justify-content: center;
     align-items: center;
-    margin: 4rem auto;
-    width: 400px;
-    /* margin-bottom: 7rem; */
+    /* margin: 4rem auto; */
+    width: 450px;
+    margin-bottom: 7rem;
   }
 
   .hero .left .footer-icons img {
-    margin-inline: 5px;
-    width: 15px;
+    margin-inline: 10px;
   }
 
   .desktop-image {
@@ -120,7 +135,7 @@
 
   .mobile-image {
     display: block;
-    width: 390px;
+    width: 450px;
     margin: 0px;
   }
 }
