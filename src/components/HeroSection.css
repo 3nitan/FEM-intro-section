@@ -50,7 +50,7 @@
 .hero .left .footer-icons {
   display: flex;
   align-items: center;
-  margin-top: 110px;
+  margin-top: 50px;
 }
 
 .hero .left .footer-icons img {
@@ -64,4 +64,47 @@
 .hero .right img {
   width: 100%;
   /* padding: 30px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    width: 650px;
+    align-items: center;
+    height: auto;
+  }
+
+  .hero .left h1 {
+    font-size: 50px;
+    margin: 4rem 0 2rem 0;
+  }
+
+  .hero .left p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  .hero .left button {
+    margin: auto;
+    border-radius: 15px;
+  }
+
+  .footer-icons {
+    margin-bottom: 7rem;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+  }
 }

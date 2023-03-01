@@ -10,6 +10,7 @@
   position: absolute;
   /* top: 70px;
   left: 100px; */
+  transform: translate(0px, 10px);
 }
 
 .features p {

@@ -1,5 +1,4 @@
 nav {
-  /* padding: 40px 30px; */
   width: 1200px;
   margin: 30px auto;
 }
@@ -67,5 +66,51 @@ nav ul .right li .register {
   text-align: center;
 }
 
-nav ul .right li .register:hover {
+@media only screen and (min-width: 768px) {
+  .toggle-button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    width: 650px;
+    position: sticky;
+    top: 0px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav .left {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  nav .left li {
+    flex-direction: column;
+  }
+
+  nav .buttons {
+    /* display: block; */
+  }
+
+  ul {
+    display: none;
+    flex-direction: column;
+    background-color: var(--almost-white);
+    padding: 20px 30px;
+    /* position: absolute; */
+    width: 100%;
+  }
+
+  .right {
+    flex-direction: column;
+  }
+
+  .toggle-button img {
+    cursor: pointer;
+  }
 }

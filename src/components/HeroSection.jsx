@@ -5,9 +5,7 @@ export default function HeroSection() {
   return (
     <div className='hero'>
       <div className='left'>
-        <h1>
-          Make <br /> remote work
-        </h1>
+        <h1>Make remote work</h1>
         <p>
           Get your team in sync, no matter your location. Streamliine processes,
           create team rituals, and watch productivity soar.
@@ -22,7 +20,16 @@ export default function HeroSection() {
       </div>
 
       <div className='right'>
-        <img src='/assets/image-hero-desktop.png' alt='' />
+        <img
+          src='/assets/image-hero-desktop.png'
+          alt=''
+          className='desktop-image'
+        />
+        <img
+          src='/assets/image-hero-mobile.png'
+          alt=''
+          className='mobile-image'
+        />
       </div>
     </div>
   );
