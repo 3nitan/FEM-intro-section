@@ -74,7 +74,7 @@ nav ul .right li .register {
 
 @media only screen and (max-width: 768px) {
   nav {
-    max-width: 650px;
+    max-width: 550px;
     position: sticky;
     top: 0px;
   }
