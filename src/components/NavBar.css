@@ -72,20 +72,28 @@ nav ul .right li .register {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   nav {
-    max-width: 550px;
-    position: sticky;
-    top: 0px;
+    width: 400px;
+    margin: 20px auto;
+    /* position: sticky; */
+    /* top: 0px; */
+  }
+
+  nav .logo {
+    margin-left: 25px;
   }
 
   nav ul {
+    padding: 0px;
     flex-direction: column;
   }
 
   nav .left {
     display: flex;
     justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
     width: 100%;
   }
 
